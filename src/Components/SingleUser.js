@@ -16,9 +16,25 @@ export default function App() {
 
   return (
     <div>
-      <img src={post.imageUrl} alt="img"></img>
-      <h1>{post.name}</h1>
-      <p>{post.title}</p>
+        <div className="singleUserMain">
+            <div className="userImg">
+                <img src={post.imageUrl} alt="img"></img>
+            </div>
+            <div className="singleUserInfo">
+                <h1>{post.name}</h1>
+                <p>{post.title}</p>
+                <p>Email: {post.email}</p>
+                <p>Ip Adress: {post.ip}</p>
+                <p>Ip Adress: {post.ip}</p>
+                <p>Job Areas: {post.jobArea}</p>
+                <p>Job Type: {post.jobType}</p>
+            </div>
+            <div className="singleUserAdress">
+                <h1>{post.name}</h1>
+                <p>{post.name}</p>
+                
+            </div>
+        </div>
     </div>
   );
 }
