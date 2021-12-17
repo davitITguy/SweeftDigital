@@ -14,6 +14,7 @@ import {
 } from 'reactstrap';
 import {Jumbotron} from 'reactstrap';
 import axios from "axios";
+import pandas from "../images/pandas.jpg"
 
 
 
@@ -37,7 +38,7 @@ class ReactstrapTest extends Component {
                     <Container>
                         <Row>
                             <Col lg={4}>
-                               <img src='src\images\pandas.jpg' alt='cant find img'></img>
+                               <img src={'pandas'} alt='cant find img'></img>
 
                             </Col>
                             <Col lg={4}>
